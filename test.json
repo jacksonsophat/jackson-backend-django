@@ -1,0 +1,132 @@
+{
+    "title":"Houston weather: Photos and video show severe storm damage and flooding from Tuesday's event",
+    "title_detail":{
+       "type":"text/plain",
+       "language":"None",
+       "base":"https://abc13.com/feed/",
+       "value":"Houston weather: Photos and video show severe storm damage and flooding from Tuesday's event"
+    },
+    "summary":"An ABC13 Weather Alert Day was issued for what has become an eventful and potentially life-threatening storm pushing into southeast Texas.",
+    "summary_detail":{
+       "type":"text/html",
+       "language":"None",
+       "base":"https://abc13.com/feed/",
+       "value":"An ABC13 Weather Alert Day was issued for what has become an eventful and potentially life-threatening storm pushing into southeast Texas."
+    },
+    "published":"Tue, 24 Jan 2023 21:28:04 +0000",
+    "published_parsed":time.struct_time(tm_year=2023,
+    tm_mon=1,
+    tm_mday=24,
+    tm_hour=21,
+    tm_min=28,
+    tm_sec=4,
+    tm_wday=1,
+    tm_yday=24,
+    tm_isdst=0),
+    "links":[
+       {
+          "rel":"alternate",
+          "type":"text/html",
+          "href":"https://abc13.com/houston-weather-tornado-weather-houston-hourly-radar-abc13-alert-day/12731700/"
+       },
+       {
+          "length":"18",
+          "type":"video/mp4",
+          "href":"https://vcl.abcotv.net/video/ktrk/012423-ktrk-trampoline-damage-carolina-vid.mp4",
+          "rel":"enclosure"
+       }
+    ],
+    "link":"https://abc13.com/houston-weather-tornado-weather-houston-hourly-radar-abc13-alert-day/12731700/",
+    "type":"post",
+    "id":"weather/abc13-viewers-capture-houstons-unfolding-severe-weather-tuesday/12731700/",
+    "guidislink":false,
+    "authors":[
+       {
+          "name":"KTRK"
+       }
+    ],
+    "author":"KTRK",
+    "author_detail":{
+       "name":"KTRK"
+    },
+    "content":[
+       {
+          "type":"text/plain",
+          "language":"None",
+          "base":"https://abc13.com/feed/",
+          "value":"Press play to watch wind gusts force tree branches to break and fall on top of a trampoline in the back yard of a home in northeast Houston."
+       }
+    ],
+    "media_videoid":"12731696",
+    "media_thumbnail":[
+       {
+          "url":"https://cdn.abcotvs.com/dip/images/12731685_012423-ktrk-trampoline-damage.png",
+          "width":"1280",
+          "height":"720"
+       }
+    ],
+    "href":"",
+    "media_keywords":"houston weather, houston tornado, weather-houston hourly radar, abc13 weather alert day, abc 13 live stream, is there a hurricane coming to houston, pearland weather, league city weather, deer park, pasadena tornado",
+    "tags":[
+       {
+          "term":"houston weather",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"houston tornado",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"weather-houston hourly radar",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"abc13 weather alert day",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"abc 13 live stream",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"is there a hurricane coming to houston",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"pearland weather",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"league city weather",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"deer park",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"pasadena tornado",
+          "scheme":"None",
+          "label":"None"
+       },
+       {
+          "term":"Weather,Houston,Tomball,Pearland,flooding,viewer video,caught on video,tornado,houston flood,storm damage,caught on camera,severe weather",
+          "scheme":"None",
+          "label":"None"
+       }
+    ]
+ }
+
+
+
+
+ 
