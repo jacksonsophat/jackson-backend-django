@@ -1,6 +1,15 @@
 from django.urls import path
 from . import views
-# from .views import PostsView, CreatePostView
+
+from .views import MyTokenObtainPairView
+
+from rest_framework_simplejwt.views import (
+    # TokenObtainPairView,
+    TokenRefreshView,
+    # MyTokenObtainPairView,
+)
+
+
 
 urlpatterns =[
     # path('posts', PostsView.as_view()),
@@ -9,4 +18,11 @@ urlpatterns =[
     path('all-posts/', views.getPosts),
     path('post/<str:pk>', views.getPost),
     path('create-post/', views.createPost),
+
+    # Authentication
+    path('get-routes/', views.getRoutes),
+
+
+    path('token/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]

@@ -6,6 +6,9 @@ from rest_framework.response import Response
 from .serializers import PostSerializer, CreatePostSerializer
 from rest_framework.decorators import api_view
 
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from rest_framework_simplejwt.views import TokenObtainPairView
+
 
 
 
@@ -62,3 +65,28 @@ def createPost(request):
 #             # return Response(PostSerializer(post).data, status=status.HTTP_201_CREATED)
 #         # return Response({'Bad Request':'Invalid data...'}, status=status.HTTP_400_BAD_REQUEST)
 #         return Response({'Bad Request':'Invalid data...'})
+
+
+### AUTHENTICATION ###
+@api_view()
+def getRoutes(request):
+    routes =[
+        '/token',
+        '/token/refresh'
+    ]
+    return Response(routes)
+
+
+
+class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+
+        # Add custom claims
+        token['username'] = user.username
+
+        return token
+
+class MyTokenObtainPairView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer
